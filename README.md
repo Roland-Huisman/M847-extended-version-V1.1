@@ -36,8 +36,9 @@ upload the "M847 extedned edition.ino" to the board using the Arduino IDE and a 
 The board has to be in the PDP then to give the board 5V power. (You can also power the board
 externally if you prefer)
 
-Regards, Roland Huisman
-
 First demo: https://youtu.be/0nqb3zyAv2g
-
 Second demo: https://youtu.be/xYt5kZuUb3A
+
+To do: Test in parallel with my real M847 to check if it gives some sort of collisions...
+
+Regards, Roland Huisman
