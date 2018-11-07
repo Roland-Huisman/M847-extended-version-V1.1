@@ -20,11 +20,21 @@ Toggeling more than once shows up the programnumber into the address lights.
 After a time out of 3 seconds the displayed program will be loaded.
 
 The initial V1 version puts out a lot of debugging data and is slowed down a lot.
-This will be tuned up soon. But it does give a nice blinkenlight effect while loading.
+This can be tuned up but it does give a nice blinkenlight effect while loading.
 
-The PCB has been made in trough hole components. This because many people can built it
+The PCB has been made in trough hole components. This because people can built it
 without any special tools. The ATMEGA328 needs to have an Arduino bootloader in it.
-You can program this also with an Arduino as programmer.
+You can buy it already flashed but you can program this also with an Arduino as ISP programmer.
+
+The picture "Flash Arduino bootloader.jpg" shows how to connect an Arduino as ISP to flash the
+arduino bootloader into the Atmega328. I used a 6 pin cable and on the programmer side I took out wire 5.
+Wire 5 goes to digital pin 10 on the Arduino ISP. You have to do this only once. If you bought an Atmega328
+with arduino bootloader in it then there is no need to flash the CPU with the bootloader.
+
+Please don't mix up the terms bootloader. When you flashed the Arduino bootloader you have to
+upload the "M847 extedned edition.ino" to the board using the Arduino IDE and a serial cable.
+The board has to be in the PDP then to give the board 5V power. (You can also power the board
+externally if you prefer)
 
 Regards, Roland Huisman
 
