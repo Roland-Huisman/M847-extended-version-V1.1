@@ -24,17 +24,18 @@ This can be tuned up but it does give a nice blinkenlight effect while loading.
 
 The PCB has been made in trough hole components. This because people can built it
 without any special tools. The ATMEGA328 needs to have an Arduino bootloader in it.
-You can buy it already flashed but you can program this also with an Arduino as ISP programmer.
+You can buy them already flashed but you can program this also with an Arduino as ISP programmer.
 
 The picture "Flash Arduino bootloader.jpg" shows how to connect an Arduino as ISP to flash the
 arduino bootloader into the Atmega328. I used a 6 pin cable and on the programmer side I took out wire 5.
 Wire 5 goes to digital pin 10 on the Arduino ISP. You have to do this only once. If you bought an Atmega328
 with arduino bootloader in it then there is no need to flash the CPU with the bootloader.
 
-Please don't mix up the terms bootloader. When you flashed the Arduino bootloader you have to
-upload the "M847 extedned edition.ino" to the board using the Arduino IDE and a serial cable.
-The board has to be in the PDP then to give the board 5V power. (You can also power the board
-externally if you prefer)
+Now you have to put in the "M847 extedned edition Vxx.ino". For this the board needs 5V.
+The easiest way is to put the board in the PDP, connect a fully wired serial cross cable and powerup the PDP.
+
+In the Arduino IDE you have to select the "Arduino Uno board" and your com port which you want to use on the PC.
+Then just open the .ino file and press upload. Now you are ready to use the board.
 
 First demo: https://youtu.be/0nqb3zyAv2g
 Second demo: https://youtu.be/xYt5kZuUb3A
