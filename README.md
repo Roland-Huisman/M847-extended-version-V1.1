@@ -16,8 +16,10 @@ are selectable by the dipswitches on the board. This makes such a program a defa
 
 After toggeling the SW switch one time, the default will be loaded.
 
-Toggeling more than once shows up the programnumber into the address lights.
-After a time out of 3 seconds the displayed program will be loaded.
+Toggeling more than once shows up the programnumber into the address lights. 
+After a time out of 3 seconds the displayed program will be loaded. If a not existing program
+is selected, the programnumber stays in the address line after the 3 second time out. 
+Then you can start toggling in the program again.
 
 The initial V1 version puts out a lot of debugging data and is slowed down a lot.
 This can be tuned up but it does give a nice blinkenlight effect while loading.
