@@ -14,6 +14,7 @@ These programs can be selected by SW switch OR set as default with dipswitches
 13 BIN LOADER (before loading set switch register to 7777 for TTY @ 03/04 or 3777 for 750C reader)
 14 MI8-EH TD8-E
 15 Wipe core field 0 (Just let it run for a few seconds)
+16 Kaleisoscope
 
 The next can only be loaded by toggling the SW switch or pushbutton on the PCB only.
 
