@@ -33,5 +33,8 @@ The next can only be loaded by toggling the SW switch or pushbutton on the PCB o
 32 console print test
 33 Echo test for one terminal at 03/04
 34 echo 1-4 terminals
+35 PC04 Punch alternating 1's and 0's
+36 PC04 read the papertape (doesn't load to core, just for test purposes)
+37 Place received character into AC from terminal at 03/04
 
-
+V1.6
