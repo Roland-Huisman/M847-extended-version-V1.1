@@ -1,0 +1,42 @@
+These programs can be selected by SW switch OR set as default with dipswitches 
+
+01 OS8 disk server 40/41
+02 RX01 (RX8)
+03 RX02 (RX28)
+04 RK05 (RK8E)
+05 TU56 (TD8E)
+06 TU56 (TC08)
+07 TU60 (TA8E)
+
+10 PC04 (PC8E)
+11 RIM loader 03/04
+12 BIN loader 03/04
+13 BIN loader 40/41
+14 Kaleisoscope
+15 MI8-EE Typeset
+16 MI8-EF Edu sys low
+17 MI8-EG Edu sys high
+
+The next can only be loaded by toggling the SW switch or pushbutton on the PCB only.
+
+20 group 1 microinstructions
+21 group 1 microinstructions
+22 Operate instructions
+23 ISZ instructions
+24 JMS instruction
+25 JMP instruction
+26 AC increment
+27 checker board runs endless MD alters between 0000 and 7777
+
+30 checker board runs endless MD alters between 5252 and 2525
+31 print character in switch register
+32 console print test
+33 Echo test for one terminal at 03/04
+34 echo 1-4 terminals
+35 PC04 Punch alternating 1's and 0's
+36 PC04 read the papertape (doesn't load to core, just for test purposes)
+37 Place received character into AC from terminal at 03/04
+
+40 Wipe core field 0 (Just let it run for a few seconds)
+
+Program list for software version V1.7
